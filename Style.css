@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: teal;
+}
+
+.todo_container{
+    width: 70%;
+    background-color: darkgrey;
+    min-height: 80vh;
+}
+.todo{
+    background-color: darkolivegreen;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+.form{
+    width: 70%;
+}
+.btn{
+    width: 30%;
+    height: 5vh;
+}
+.add{
+    height: 5vh;
+    width: 70%;
+}
